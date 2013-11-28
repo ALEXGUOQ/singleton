@@ -20,7 +20,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        someProperty = [[NSString alloc] initWithString:@"Default Property Value"];
+
     }
     return self;
 }
