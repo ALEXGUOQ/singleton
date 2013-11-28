@@ -10,7 +10,7 @@
 
 @implementation SongManager
 + (id)sharedManager {
-    static MyManager *sharedMyManager = nil;
+    static SongManager *sharedMyManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedMyManager = [[self alloc] init];
